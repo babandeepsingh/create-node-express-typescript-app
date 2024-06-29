@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "A CLI to automatically clone the Express typescript project",
   "main": "index.js",
+  "bin": {
+    "create-node-express-typescript-app": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babandeepsingh/create-node-express-typescript-app.git"
+  },
+  "author": "Babandeep Singh",
+  "license": "MIT"
 }
